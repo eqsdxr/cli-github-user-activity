@@ -1,0 +1,3083 @@
+[
+    {
+        "id": "41961023168",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20255880031,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "3a24ff7f24cad51eaae2d78799b7f39686df989b",
+            "before": "111c7f23ab171a6035f06cba18ec6a97dc165205",
+            "commits": [
+                {
+                    "sha": "3a24ff7f24cad51eaae2d78799b7f39686df989b",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Update homepage link",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/3a24ff7f24cad51eaae2d78799b7f39686df989b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-16T11:33:13Z"
+    },
+    {
+        "id": "41960192931",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968",
+                "repository_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968/comments",
+                "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968/events",
+                "html_url": "https://github.com/kamranahmedse/developer-roadmap/issues/6968",
+                "id": 2501473283,
+                "node_id": "I_kwDOBRIuNs6VGXQD",
+                "number": 6968,
+                "title": "Section with pinned/followed roadmaps on \"My Profile\" page",
+                "user": {
+                    "login": "grafanaKibana",
+                    "id": 45916288,
+                    "node_id": "MDQ6VXNlcjQ1OTE2Mjg4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/45916288?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/grafanaKibana",
+                    "html_url": "https://github.com/grafanaKibana",
+                    "followers_url": "https://api.github.com/users/grafanaKibana/followers",
+                    "following_url": "https://api.github.com/users/grafanaKibana/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/grafanaKibana/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/grafanaKibana/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/grafanaKibana/subscriptions",
+                    "organizations_url": "https://api.github.com/users/grafanaKibana/orgs",
+                    "repos_url": "https://api.github.com/users/grafanaKibana/repos",
+                    "events_url": "https://api.github.com/users/grafanaKibana/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/grafanaKibana/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 5069765299,
+                        "node_id": "LA_kwDOBRIuNs8AAAABLi56sw",
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels/feature%20request",
+                        "name": "feature request",
+                        "color": "D649A4",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2024-09-02T19:00:38Z",
+                "updated_at": "2024-09-16T11:06:09Z",
+                "closed_at": "2024-09-16T11:06:08Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Feature Description\r\n\r\nAs a user who wants to continuously progress with some roadmap, I want to have the ability to quickly find the roadmaps that I'm following and progressing. \r\n\r\nEDIT: Thanks to @fellalli who pointed out that they are appearing on the home page. But for me as a user, it is not so obvious. Before creating this ticked I spent 5 mins trying to find a list of my \"Favorites\" and gave up 🙁\r\n\r\nI wish they also appeared on the \"My Profile\" page, with no started roadmaps included (Now they appear only if you finished at least one topic). Moreover, I have started some community roadmaps that one not appear neither on the home page or \"Activity\" section.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments/2352613485",
+                "html_url": "https://github.com/kamranahmedse/developer-roadmap/issues/6968#issuecomment-2352613485",
+                "issue_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968",
+                "id": 2352613485,
+                "node_id": "IC_kwDOBRIuNs6MOght",
+                "user": {
+                    "login": "kamranahmedse",
+                    "id": 4921183,
+                    "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kamranahmedse",
+                    "html_url": "https://github.com/kamranahmedse",
+                    "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                    "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                    "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                    "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2024-09-16T11:06:08Z",
+                "updated_at": "2024-09-16T11:06:08Z",
+                "author_association": "OWNER",
+                "body": "<img width=\"933\" alt=\"image\" src=\"https://github.com/user-attachments/assets/2677419c-1c0b-4be7-9dea-d816b152defe\">\r\n\r\nthe new dashboard should fix this. Let us know if you have any feadback.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments/2352613485/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2024-09-16T11:06:10Z"
+    },
+    {
+        "id": "41960192495",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968",
+                "repository_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968/comments",
+                "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968/events",
+                "html_url": "https://github.com/kamranahmedse/developer-roadmap/issues/6968",
+                "id": 2501473283,
+                "node_id": "I_kwDOBRIuNs6VGXQD",
+                "number": 6968,
+                "title": "Section with pinned/followed roadmaps on \"My Profile\" page",
+                "user": {
+                    "login": "grafanaKibana",
+                    "id": 45916288,
+                    "node_id": "MDQ6VXNlcjQ1OTE2Mjg4",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/45916288?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/grafanaKibana",
+                    "html_url": "https://github.com/grafanaKibana",
+                    "followers_url": "https://api.github.com/users/grafanaKibana/followers",
+                    "following_url": "https://api.github.com/users/grafanaKibana/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/grafanaKibana/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/grafanaKibana/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/grafanaKibana/subscriptions",
+                    "organizations_url": "https://api.github.com/users/grafanaKibana/orgs",
+                    "repos_url": "https://api.github.com/users/grafanaKibana/repos",
+                    "events_url": "https://api.github.com/users/grafanaKibana/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/grafanaKibana/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [
+                    {
+                        "id": 5069765299,
+                        "node_id": "LA_kwDOBRIuNs8AAAABLi56sw",
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels/feature%20request",
+                        "name": "feature request",
+                        "color": "D649A4",
+                        "default": false,
+                        "description": ""
+                    }
+                ],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 4,
+                "created_at": "2024-09-02T19:00:38Z",
+                "updated_at": "2024-09-16T11:06:09Z",
+                "closed_at": "2024-09-16T11:06:08Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Feature Description\r\n\r\nAs a user who wants to continuously progress with some roadmap, I want to have the ability to quickly find the roadmaps that I'm following and progressing. \r\n\r\nEDIT: Thanks to @fellalli who pointed out that they are appearing on the home page. But for me as a user, it is not so obvious. Before creating this ticked I spent 5 mins trying to find a list of my \"Favorites\" and gave up 🙁\r\n\r\nI wish they also appeared on the \"My Profile\" page, with no started roadmaps included (Now they appear only if you finished at least one topic). Moreover, I have started some community roadmaps that one not appear neither on the home page or \"Activity\" section.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/6968/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "completed"
+            }
+        },
+        "public": true,
+        "created_at": "2024-09-16T11:06:09Z"
+    },
+    {
+        "id": "41960122732",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132",
+                "repository_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132/comments",
+                "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132/events",
+                "html_url": "https://github.com/kamranahmedse/developer-roadmap/issues/7132",
+                "id": 2527012491,
+                "node_id": "I_kwDOBRIuNs6WnyaL",
+                "number": 7132,
+                "title": "Dedicated Option To Find Saved Roadmaps",
+                "user": {
+                    "login": "monark04",
+                    "id": 156456877,
+                    "node_id": "U_kgDOCVNXrQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/156456877?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/monark04",
+                    "html_url": "https://github.com/monark04",
+                    "followers_url": "https://api.github.com/users/monark04/followers",
+                    "following_url": "https://api.github.com/users/monark04/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/monark04/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/monark04/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/monark04/subscriptions",
+                    "organizations_url": "https://api.github.com/users/monark04/orgs",
+                    "repos_url": "https://api.github.com/users/monark04/repos",
+                    "events_url": "https://api.github.com/users/monark04/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/monark04/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2024-09-15T16:30:37Z",
+                "updated_at": "2024-09-16T11:03:50Z",
+                "closed_at": "2024-09-16T11:03:50Z",
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Detailed Description\n\nI find it is hard to navigate to saved roadmaps. Every time i have to see all roadmaps. I may be great if user gets option to see only their saved maps specifically as old version.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132/timeline",
+                "performed_via_github_app": null,
+                "state_reason": "not_planned"
+            }
+        },
+        "public": true,
+        "created_at": "2024-09-16T11:03:50Z"
+    },
+    {
+        "id": "41960114056",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132",
+                "repository_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132/labels{/name}",
+                "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132/comments",
+                "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132/events",
+                "html_url": "https://github.com/kamranahmedse/developer-roadmap/issues/7132",
+                "id": 2527012491,
+                "node_id": "I_kwDOBRIuNs6WnyaL",
+                "number": 7132,
+                "title": "Dedicated Option To Find Saved Roadmaps",
+                "user": {
+                    "login": "monark04",
+                    "id": 156456877,
+                    "node_id": "U_kgDOCVNXrQ",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/156456877?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/monark04",
+                    "html_url": "https://github.com/monark04",
+                    "followers_url": "https://api.github.com/users/monark04/followers",
+                    "following_url": "https://api.github.com/users/monark04/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/monark04/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/monark04/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/monark04/subscriptions",
+                    "organizations_url": "https://api.github.com/users/monark04/orgs",
+                    "repos_url": "https://api.github.com/users/monark04/repos",
+                    "events_url": "https://api.github.com/users/monark04/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/monark04/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "assignees": [],
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2024-09-15T16:30:37Z",
+                "updated_at": "2024-09-16T11:03:33Z",
+                "closed_at": null,
+                "author_association": "NONE",
+                "active_lock_reason": null,
+                "body": "### Detailed Description\n\nI find it is hard to navigate to saved roadmaps. Every time i have to see all roadmaps. I may be great if user gets option to see only their saved maps specifically as old version.",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "timeline_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132/timeline",
+                "performed_via_github_app": null,
+                "state_reason": null
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments/2352608446",
+                "html_url": "https://github.com/kamranahmedse/developer-roadmap/issues/7132#issuecomment-2352608446",
+                "issue_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7132",
+                "id": 2352608446,
+                "node_id": "IC_kwDOBRIuNs6MOfS-",
+                "user": {
+                    "login": "kamranahmedse",
+                    "id": 4921183,
+                    "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kamranahmedse",
+                    "html_url": "https://github.com/kamranahmedse",
+                    "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                    "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                    "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                    "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2024-09-16T11:03:32Z",
+                "updated_at": "2024-09-16T11:03:32Z",
+                "author_association": "OWNER",
+                "body": "<img width=\"425\" alt=\"image\" src=\"https://github.com/user-attachments/assets/a02ee7c4-b880-4537-adb1-a1235b2fc5a7\">\r\n\r\nProjects _are_ there on the new dashboard. Does that work or do you mean something else?",
+                "reactions": {
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments/2352608446/reactions",
+                    "total_count": 0,
+                    "+1": 0,
+                    "-1": 0,
+                    "laugh": 0,
+                    "hooray": 0,
+                    "confused": 0,
+                    "heart": 0,
+                    "rocket": 0,
+                    "eyes": 0
+                },
+                "performed_via_github_app": null
+            }
+        },
+        "public": true,
+        "created_at": "2024-09-16T11:03:33Z"
+    },
+    {
+        "id": "41921594418",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20232078646,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/feat/changelog",
+            "head": "fd28134846a2eeeaad880d4c14673d3b50220e1e",
+            "before": "694c797d7792729284add217d9212b0071b07019",
+            "commits": [
+                {
+                    "sha": "fd28134846a2eeeaad880d4c14673d3b50220e1e",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Update UI for changelog page",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/fd28134846a2eeeaad880d4c14673d3b50220e1e"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-13T22:19:50Z"
+    },
+    {
+        "id": "41916224544",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20229397808,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "56e7aa5687f213f27d0795c44d5e1f85f2f8409c",
+            "before": "b92abb127d8de8b01cc78cc3a540ebf1a396b712",
+            "commits": [
+                {
+                    "sha": "56e7aa5687f213f27d0795c44d5e1f85f2f8409c",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Update homepage link color",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/56e7aa5687f213f27d0795c44d5e1f85f2f8409c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-13T18:08:57Z"
+    },
+    {
+        "id": "41916210806",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20229391063,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "b92abb127d8de8b01cc78cc3a540ebf1a396b712",
+            "before": "a9b9077d079e58f8ba37922a56b59a258b7a7393",
+            "commits": [
+                {
+                    "sha": "b92abb127d8de8b01cc78cc3a540ebf1a396b712",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Add link to old homepage",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/b92abb127d8de8b01cc78cc3a540ebf1a396b712"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-13T18:08:25Z"
+    },
+    {
+        "id": "41886324361",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20214439413,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "7adbdc3fb14129d36892a4a85a9c2b6a6820dec4",
+            "before": "e79bfca0748ab8f98220958605c676329672c2e0",
+            "commits": [
+                {
+                    "sha": "7adbdc3fb14129d36892a4a85a9c2b6a6820dec4",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Fix redirect issue on dashboard for AI roadmaps",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/7adbdc3fb14129d36892a4a85a9c2b6a6820dec4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T21:39:21Z"
+    },
+    {
+        "id": "41882100727",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20212323333,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e79bfca0748ab8f98220958605c676329672c2e0",
+            "before": "989f7ad5c16df4151d1e42b864cfdb73f7e96572",
+            "commits": [
+                {
+                    "sha": "e79bfca0748ab8f98220958605c676329672c2e0",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Add link to leaderboard",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/e79bfca0748ab8f98220958605c676329672c2e0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T18:57:21Z"
+    },
+    {
+        "id": "41880664989",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20211598084,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "989f7ad5c16df4151d1e42b864cfdb73f7e96572",
+            "before": "dd5232f2f86f3aced7873ee9a39a718a05e46d53",
+            "commits": [
+                {
+                    "sha": "989f7ad5c16df4151d1e42b864cfdb73f7e96572",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Add streaks for lifetime",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/989f7ad5c16df4151d1e42b864cfdb73f7e96572"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T18:09:08Z"
+    },
+    {
+        "id": "41880213578",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20211379439,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "dd5232f2f86f3aced7873ee9a39a718a05e46d53",
+            "before": "851a0381b6bcbb439a01c81e2b14a09878823e47",
+            "commits": [
+                {
+                    "sha": "dd5232f2f86f3aced7873ee9a39a718a05e46d53",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Fix spacing on leaderboard page",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/dd5232f2f86f3aced7873ee9a39a718a05e46d53"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T17:53:38Z"
+    },
+    {
+        "id": "41880143171",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20211345489,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "851a0381b6bcbb439a01c81e2b14a09878823e47",
+            "before": "88d783680be6accd5db3d7d88e397fbd4b49b204",
+            "commits": [
+                {
+                    "sha": "851a0381b6bcbb439a01c81e2b14a09878823e47",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Add leaderboard page",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/851a0381b6bcbb439a01c81e2b14a09878823e47"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T17:51:09Z"
+    },
+    {
+        "id": "41877835333",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20210209514,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "88d783680be6accd5db3d7d88e397fbd4b49b204",
+            "before": "a1aba2e0260496ffffcf437ebae40d52303d7c56",
+            "commits": [
+                {
+                    "sha": "88d783680be6accd5db3d7d88e397fbd4b49b204",
+                    "author": {
+                        "email": "arikchangma@gmail.com",
+                        "name": "Arik Chakma"
+                    },
+                    "message": "feat: implement leaderboard page (#7063)\n\n* feat: implement leaderboard page\r\n\r\n* feat: add empty and error pages\r\n\r\n* feat: add rank badge",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/88d783680be6accd5db3d7d88e397fbd4b49b204"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T16:32:53Z"
+    },
+    {
+        "id": "41877835119",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 7063,
+            "pull_request": {
+                "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7063",
+                "id": 2063442200,
+                "node_id": "PR_kwDOBRIuNs56_aEY",
+                "html_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7063",
+                "diff_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7063.diff",
+                "patch_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7063.patch",
+                "issue_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7063",
+                "number": 7063,
+                "state": "closed",
+                "locked": false,
+                "title": "feat: implement leaderboard page",
+                "user": {
+                    "login": "arikchakma",
+                    "id": 54026804,
+                    "node_id": "MDQ6VXNlcjU0MDI2ODA0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/54026804?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/arikchakma",
+                    "html_url": "https://github.com/arikchakma",
+                    "followers_url": "https://api.github.com/users/arikchakma/followers",
+                    "following_url": "https://api.github.com/users/arikchakma/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/arikchakma/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/arikchakma/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/arikchakma/subscriptions",
+                    "organizations_url": "https://api.github.com/users/arikchakma/orgs",
+                    "repos_url": "https://api.github.com/users/arikchakma/repos",
+                    "events_url": "https://api.github.com/users/arikchakma/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/arikchakma/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2024-09-10T14:08:55Z",
+                "updated_at": "2024-09-12T16:32:52Z",
+                "closed_at": "2024-09-12T16:32:52Z",
+                "merged_at": "2024-09-12T16:32:52Z",
+                "merge_commit_sha": "88d783680be6accd5db3d7d88e397fbd4b49b204",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7063/commits",
+                "review_comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7063/comments",
+                "review_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7063/comments",
+                "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/ae4896b9d786c6aea164300ccff250f1974d7754",
+                "head": {
+                    "label": "kamranahmedse:feat/leaderboard",
+                    "ref": "feat/leaderboard",
+                    "sha": "ae4896b9d786c6aea164300ccff250f1974d7754",
+                    "user": {
+                        "login": "kamranahmedse",
+                        "id": 4921183,
+                        "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/kamranahmedse",
+                        "html_url": "https://github.com/kamranahmedse",
+                        "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                        "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                        "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                        "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                        "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 85077558,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
+                        "name": "developer-roadmap",
+                        "full_name": "kamranahmedse/developer-roadmap",
+                        "private": false,
+                        "owner": {
+                            "login": "kamranahmedse",
+                            "id": 4921183,
+                            "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/kamranahmedse",
+                            "html_url": "https://github.com/kamranahmedse",
+                            "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                            "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                            "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                            "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                            "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                        "forks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/forks",
+                        "keys_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/teams",
+                        "hooks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/hooks",
+                        "issue_events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/events",
+                        "assignees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/tags",
+                        "blobs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/languages",
+                        "stargazers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/stargazers",
+                        "contributors_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contributors",
+                        "subscribers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscribers",
+                        "subscription_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscription",
+                        "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/merges",
+                        "archive_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/downloads",
+                        "issues_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/deployments",
+                        "created_at": "2017-03-15T13:45:52Z",
+                        "updated_at": "2024-09-12T16:24:53Z",
+                        "pushed_at": "2024-09-12T16:02:01Z",
+                        "git_url": "git://github.com/kamranahmedse/developer-roadmap.git",
+                        "ssh_url": "git@github.com:kamranahmedse/developer-roadmap.git",
+                        "clone_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+                        "svn_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "homepage": "https://roadmap.sh",
+                        "size": 238222,
+                        "stargazers_count": 291126,
+                        "watchers_count": 291126,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 38524,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 80,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "angular-roadmap",
+                            "backend-roadmap",
+                            "blockchain-roadmap",
+                            "computer-science",
+                            "dba-roadmap",
+                            "developer-roadmap",
+                            "devops-roadmap",
+                            "frontend-roadmap",
+                            "go-roadmap",
+                            "java-roadmap",
+                            "javascript-roadmap",
+                            "nodejs-roadmap",
+                            "python-roadmap",
+                            "qa-roadmap",
+                            "react-roadmap",
+                            "roadmap",
+                            "software-architect-roadmap",
+                            "vue-roadmap"
+                        ],
+                        "visibility": "public",
+                        "forks": 38524,
+                        "open_issues": 80,
+                        "watchers": 291126,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "kamranahmedse:master",
+                    "ref": "master",
+                    "sha": "dae737fa02290660398152f7af586688c56d0e73",
+                    "user": {
+                        "login": "kamranahmedse",
+                        "id": 4921183,
+                        "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/kamranahmedse",
+                        "html_url": "https://github.com/kamranahmedse",
+                        "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                        "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                        "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                        "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                        "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 85077558,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
+                        "name": "developer-roadmap",
+                        "full_name": "kamranahmedse/developer-roadmap",
+                        "private": false,
+                        "owner": {
+                            "login": "kamranahmedse",
+                            "id": 4921183,
+                            "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/kamranahmedse",
+                            "html_url": "https://github.com/kamranahmedse",
+                            "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                            "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                            "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                            "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                            "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                        "forks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/forks",
+                        "keys_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/teams",
+                        "hooks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/hooks",
+                        "issue_events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/events",
+                        "assignees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/tags",
+                        "blobs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/languages",
+                        "stargazers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/stargazers",
+                        "contributors_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contributors",
+                        "subscribers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscribers",
+                        "subscription_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscription",
+                        "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/merges",
+                        "archive_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/downloads",
+                        "issues_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/deployments",
+                        "created_at": "2017-03-15T13:45:52Z",
+                        "updated_at": "2024-09-12T16:24:53Z",
+                        "pushed_at": "2024-09-12T16:02:01Z",
+                        "git_url": "git://github.com/kamranahmedse/developer-roadmap.git",
+                        "ssh_url": "git@github.com:kamranahmedse/developer-roadmap.git",
+                        "clone_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+                        "svn_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "homepage": "https://roadmap.sh",
+                        "size": 238222,
+                        "stargazers_count": 291126,
+                        "watchers_count": 291126,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 38524,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 80,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "angular-roadmap",
+                            "backend-roadmap",
+                            "blockchain-roadmap",
+                            "computer-science",
+                            "dba-roadmap",
+                            "developer-roadmap",
+                            "devops-roadmap",
+                            "frontend-roadmap",
+                            "go-roadmap",
+                            "java-roadmap",
+                            "javascript-roadmap",
+                            "nodejs-roadmap",
+                            "python-roadmap",
+                            "qa-roadmap",
+                            "react-roadmap",
+                            "roadmap",
+                            "software-architect-roadmap",
+                            "vue-roadmap"
+                        ],
+                        "visibility": "public",
+                        "forks": 38524,
+                        "open_issues": 80,
+                        "watchers": 291126,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7063"
+                    },
+                    "html": {
+                        "href": "https://github.com/kamranahmedse/developer-roadmap/pull/7063"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7063"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7063/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7063/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7063/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/ae4896b9d786c6aea164300ccff250f1974d7754"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "kamranahmedse",
+                    "id": 4921183,
+                    "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kamranahmedse",
+                    "html_url": "https://github.com/kamranahmedse",
+                    "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                    "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                    "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                    "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 3,
+                "additions": 259,
+                "deletions": 0,
+                "changed_files": 5
+            }
+        },
+        "public": true,
+        "created_at": "2024-09-12T16:32:53Z"
+    },
+    {
+        "id": "41877165788",
+        "type": "WatchEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 854628278,
+            "name": "briefercloud/briefer",
+            "url": "https://api.github.com/repos/briefercloud/briefer"
+        },
+        "payload": {
+            "action": "started"
+        },
+        "public": true,
+        "created_at": "2024-09-12T16:11:32Z",
+        "org": {
+            "id": 118315700,
+            "login": "briefercloud",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/briefercloud",
+            "avatar_url": "https://avatars.githubusercontent.com/u/118315700?"
+        }
+    },
+    {
+        "id": "41876848506",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20209736771,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a1aba2e0260496ffffcf437ebae40d52303d7c56",
+            "before": "01eb7b2f0fd1d8f0800f1ca0ec55f381181cc31c",
+            "commits": [
+                {
+                    "sha": "a1aba2e0260496ffffcf437ebae40d52303d7c56",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Update skeleton height",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/a1aba2e0260496ffffcf437ebae40d52303d7c56"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T16:02:02Z"
+    },
+    {
+        "id": "41876590218",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20209611308,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "01eb7b2f0fd1d8f0800f1ca0ec55f381181cc31c",
+            "before": "94ce7745864737f0b81a094fadaee9863157ad91",
+            "commits": [
+                {
+                    "sha": "01eb7b2f0fd1d8f0800f1ca0ec55f381181cc31c",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Update font style for bookmarks",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/01eb7b2f0fd1d8f0800f1ca0ec55f381181cc31c"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T15:54:20Z"
+    },
+    {
+        "id": "41873723214",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20208253973,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "94ce7745864737f0b81a094fadaee9863157ad91",
+            "before": "bbcd7e18e54398c3c496ff087d0ff9a4da19bc97",
+            "commits": [
+                {
+                    "sha": "94ce7745864737f0b81a094fadaee9863157ad91",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Update comments",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/94ce7745864737f0b81a094fadaee9863157ad91"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T14:38:35Z"
+    },
+    {
+        "id": "41873312375",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20208058678,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "bbcd7e18e54398c3c496ff087d0ff9a4da19bc97",
+            "before": "298b137a7ddb9b6500c6723f67f43ceced8fc3fc",
+            "commits": [
+                {
+                    "sha": "bbcd7e18e54398c3c496ff087d0ff9a4da19bc97",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Update stack message",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/bbcd7e18e54398c3c496ff087d0ff9a4da19bc97"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T14:28:32Z"
+    },
+    {
+        "id": "41868691337",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20205820178,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "298b137a7ddb9b6500c6723f67f43ceced8fc3fc",
+            "before": "ae58fa2a2ac885cedb6c4cd8b6d9cd673f13aa85",
+            "commits": [
+                {
+                    "sha": "298b137a7ddb9b6500c6723f67f43ceced8fc3fc",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Fix sorting order of roadmaps",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/298b137a7ddb9b6500c6723f67f43ceced8fc3fc"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T12:32:49Z"
+    },
+    {
+        "id": "41868252827",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20205599355,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "ae58fa2a2ac885cedb6c4cd8b6d9cd673f13aa85",
+            "before": "bcc85dcebe2097b86db3009999305d34910f1aac",
+            "commits": [
+                {
+                    "sha": "ae58fa2a2ac885cedb6c4cd8b6d9cd673f13aa85",
+                    "author": {
+                        "email": "daniel.s.holdsworth@gmail.com",
+                        "name": "dsh"
+                    },
+                    "message": "Clean Backend Roadmap Links / Content (#7076)\n\n* 95 topics complete\r\n\r\n* 32 topics\r\n\r\n* 8 topics\r\n\r\n* Update src/data/roadmaps/backend/content/building-for-scale@SHmbcMRsc3SygEDksJQBD.md\r\n\r\n* Update src/data/roadmaps/backend/content/architectural-patterns@tHiUpG9LN35E5RaHddMv5.md\r\n\r\n---------\r\n\r\nCo-authored-by: Kamran Ahmed <kamranahmed.se@gmail.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/ae58fa2a2ac885cedb6c4cd8b6d9cd673f13aa85"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T12:20:53Z"
+    },
+    {
+        "id": "41868252520",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 7076,
+            "pull_request": {
+                "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7076",
+                "id": 2066275634,
+                "node_id": "PR_kwDOBRIuNs57KN0y",
+                "html_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7076",
+                "diff_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7076.diff",
+                "patch_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7076.patch",
+                "issue_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7076",
+                "number": 7076,
+                "state": "closed",
+                "locked": false,
+                "title": "Clean Backend Roadmap Links / Content",
+                "user": {
+                    "login": "dansholds",
+                    "id": 25537601,
+                    "node_id": "MDQ6VXNlcjI1NTM3NjAx",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/25537601?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/dansholds",
+                    "html_url": "https://github.com/dansholds",
+                    "followers_url": "https://api.github.com/users/dansholds/followers",
+                    "following_url": "https://api.github.com/users/dansholds/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/dansholds/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/dansholds/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/dansholds/subscriptions",
+                    "organizations_url": "https://api.github.com/users/dansholds/orgs",
+                    "repos_url": "https://api.github.com/users/dansholds/repos",
+                    "events_url": "https://api.github.com/users/dansholds/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/dansholds/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2024-09-11T13:01:56Z",
+                "updated_at": "2024-09-12T12:20:52Z",
+                "closed_at": "2024-09-12T12:20:52Z",
+                "merged_at": "2024-09-12T12:20:52Z",
+                "merge_commit_sha": "ae58fa2a2ac885cedb6c4cd8b6d9cd673f13aa85",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7076/commits",
+                "review_comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7076/comments",
+                "review_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7076/comments",
+                "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/d28b879544f4b7185365598cece3e6784db2a87f",
+                "head": {
+                    "label": "kamranahmedse:dansholds/clean-be-roadmap",
+                    "ref": "dansholds/clean-be-roadmap",
+                    "sha": "d28b879544f4b7185365598cece3e6784db2a87f",
+                    "user": {
+                        "login": "kamranahmedse",
+                        "id": 4921183,
+                        "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/kamranahmedse",
+                        "html_url": "https://github.com/kamranahmedse",
+                        "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                        "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                        "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                        "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                        "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 85077558,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
+                        "name": "developer-roadmap",
+                        "full_name": "kamranahmedse/developer-roadmap",
+                        "private": false,
+                        "owner": {
+                            "login": "kamranahmedse",
+                            "id": 4921183,
+                            "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/kamranahmedse",
+                            "html_url": "https://github.com/kamranahmedse",
+                            "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                            "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                            "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                            "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                            "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                        "forks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/forks",
+                        "keys_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/teams",
+                        "hooks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/hooks",
+                        "issue_events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/events",
+                        "assignees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/tags",
+                        "blobs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/languages",
+                        "stargazers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/stargazers",
+                        "contributors_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contributors",
+                        "subscribers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscribers",
+                        "subscription_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscription",
+                        "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/merges",
+                        "archive_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/downloads",
+                        "issues_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/deployments",
+                        "created_at": "2017-03-15T13:45:52Z",
+                        "updated_at": "2024-09-12T12:08:51Z",
+                        "pushed_at": "2024-09-12T12:20:45Z",
+                        "git_url": "git://github.com/kamranahmedse/developer-roadmap.git",
+                        "ssh_url": "git@github.com:kamranahmedse/developer-roadmap.git",
+                        "clone_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+                        "svn_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "homepage": "https://roadmap.sh",
+                        "size": 238150,
+                        "stargazers_count": 291097,
+                        "watchers_count": 291097,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 38520,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 78,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "angular-roadmap",
+                            "backend-roadmap",
+                            "blockchain-roadmap",
+                            "computer-science",
+                            "dba-roadmap",
+                            "developer-roadmap",
+                            "devops-roadmap",
+                            "frontend-roadmap",
+                            "go-roadmap",
+                            "java-roadmap",
+                            "javascript-roadmap",
+                            "nodejs-roadmap",
+                            "python-roadmap",
+                            "qa-roadmap",
+                            "react-roadmap",
+                            "roadmap",
+                            "software-architect-roadmap",
+                            "vue-roadmap"
+                        ],
+                        "visibility": "public",
+                        "forks": 38520,
+                        "open_issues": 78,
+                        "watchers": 291097,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "kamranahmedse:master",
+                    "ref": "master",
+                    "sha": "c9f34087c4f3281f90c07e1f79d1d71d55801a05",
+                    "user": {
+                        "login": "kamranahmedse",
+                        "id": 4921183,
+                        "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/kamranahmedse",
+                        "html_url": "https://github.com/kamranahmedse",
+                        "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                        "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                        "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                        "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                        "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 85077558,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
+                        "name": "developer-roadmap",
+                        "full_name": "kamranahmedse/developer-roadmap",
+                        "private": false,
+                        "owner": {
+                            "login": "kamranahmedse",
+                            "id": 4921183,
+                            "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/kamranahmedse",
+                            "html_url": "https://github.com/kamranahmedse",
+                            "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                            "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                            "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                            "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                            "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                        "forks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/forks",
+                        "keys_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/teams",
+                        "hooks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/hooks",
+                        "issue_events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/events",
+                        "assignees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/tags",
+                        "blobs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/languages",
+                        "stargazers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/stargazers",
+                        "contributors_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contributors",
+                        "subscribers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscribers",
+                        "subscription_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscription",
+                        "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/merges",
+                        "archive_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/downloads",
+                        "issues_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/deployments",
+                        "created_at": "2017-03-15T13:45:52Z",
+                        "updated_at": "2024-09-12T12:08:51Z",
+                        "pushed_at": "2024-09-12T12:20:45Z",
+                        "git_url": "git://github.com/kamranahmedse/developer-roadmap.git",
+                        "ssh_url": "git@github.com:kamranahmedse/developer-roadmap.git",
+                        "clone_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+                        "svn_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "homepage": "https://roadmap.sh",
+                        "size": 238150,
+                        "stargazers_count": 291097,
+                        "watchers_count": 291097,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 38520,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 78,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "angular-roadmap",
+                            "backend-roadmap",
+                            "blockchain-roadmap",
+                            "computer-science",
+                            "dba-roadmap",
+                            "developer-roadmap",
+                            "devops-roadmap",
+                            "frontend-roadmap",
+                            "go-roadmap",
+                            "java-roadmap",
+                            "javascript-roadmap",
+                            "nodejs-roadmap",
+                            "python-roadmap",
+                            "qa-roadmap",
+                            "react-roadmap",
+                            "roadmap",
+                            "software-architect-roadmap",
+                            "vue-roadmap"
+                        ],
+                        "visibility": "public",
+                        "forks": 38520,
+                        "open_issues": 78,
+                        "watchers": 291097,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7076"
+                    },
+                    "html": {
+                        "href": "https://github.com/kamranahmedse/developer-roadmap/pull/7076"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7076"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7076/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7076/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7076/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/d28b879544f4b7185365598cece3e6784db2a87f"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "kamranahmedse",
+                    "id": 4921183,
+                    "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kamranahmedse",
+                    "html_url": "https://github.com/kamranahmedse",
+                    "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                    "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                    "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                    "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 2,
+                "maintainer_can_modify": false,
+                "commits": 6,
+                "additions": 391,
+                "deletions": 563,
+                "changed_files": 134
+            }
+        },
+        "public": true,
+        "created_at": "2024-09-12T12:20:53Z"
+    },
+    {
+        "id": "41868249299",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20205597598,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/dansholds/clean-be-roadmap",
+            "head": "d28b879544f4b7185365598cece3e6784db2a87f",
+            "before": "fc940856ac28ea12294a2bd485798208be11230e",
+            "commits": [
+                {
+                    "sha": "d28b879544f4b7185365598cece3e6784db2a87f",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Update src/data/roadmaps/backend/content/architectural-patterns@tHiUpG9LN35E5RaHddMv5.md",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/d28b879544f4b7185365598cece3e6784db2a87f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T12:20:47Z"
+    },
+    {
+        "id": "41867813121",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20205376339,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "bcc85dcebe2097b86db3009999305d34910f1aac",
+            "before": "44a7a01e3cd03c26687080a941946aec610e5233",
+            "commits": [
+                {
+                    "sha": "bcc85dcebe2097b86db3009999305d34910f1aac",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Update projects header",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/bcc85dcebe2097b86db3009999305d34910f1aac"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T12:08:42Z"
+    },
+    {
+        "id": "41867048372",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20205005386,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "44a7a01e3cd03c26687080a941946aec610e5233",
+            "before": "e3b6bacbc405e1b4cee8c38445d575403c275372",
+            "commits": [
+                {
+                    "sha": "44a7a01e3cd03c26687080a941946aec610e5233",
+                    "author": {
+                        "email": "kamranahmed.se@gmail.com",
+                        "name": "Kamran Ahmed"
+                    },
+                    "message": "Update UI for projects",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/44a7a01e3cd03c26687080a941946aec610e5233"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T11:45:49Z"
+    },
+    {
+        "id": "41866550564",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20204765371,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e3b6bacbc405e1b4cee8c38445d575403c275372",
+            "before": "8c615084d37dbd5af507c8505d931408db9e14db",
+            "commits": [
+                {
+                    "sha": "e3b6bacbc405e1b4cee8c38445d575403c275372",
+                    "author": {
+                        "email": "arikchangma@gmail.com",
+                        "name": "Arik Chakma"
+                    },
+                    "message": "feat: implement projects page (#7067)",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/e3b6bacbc405e1b4cee8c38445d575403c275372"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T11:30:30Z"
+    },
+    {
+        "id": "41866550290",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 7067,
+            "pull_request": {
+                "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7067",
+                "id": 2064119499,
+                "node_id": "PR_kwDOBRIuNs57B_bL",
+                "html_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7067",
+                "diff_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7067.diff",
+                "patch_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7067.patch",
+                "issue_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7067",
+                "number": 7067,
+                "state": "closed",
+                "locked": false,
+                "title": "feat: implement projects page",
+                "user": {
+                    "login": "arikchakma",
+                    "id": 54026804,
+                    "node_id": "MDQ6VXNlcjU0MDI2ODA0",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/54026804?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/arikchakma",
+                    "html_url": "https://github.com/arikchakma",
+                    "followers_url": "https://api.github.com/users/arikchakma/followers",
+                    "following_url": "https://api.github.com/users/arikchakma/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/arikchakma/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/arikchakma/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/arikchakma/subscriptions",
+                    "organizations_url": "https://api.github.com/users/arikchakma/orgs",
+                    "repos_url": "https://api.github.com/users/arikchakma/repos",
+                    "events_url": "https://api.github.com/users/arikchakma/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/arikchakma/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": null,
+                "created_at": "2024-09-10T18:36:28Z",
+                "updated_at": "2024-09-12T11:30:29Z",
+                "closed_at": "2024-09-12T11:30:29Z",
+                "merged_at": "2024-09-12T11:30:29Z",
+                "merge_commit_sha": "e3b6bacbc405e1b4cee8c38445d575403c275372",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [],
+                "requested_teams": [],
+                "labels": [],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7067/commits",
+                "review_comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7067/comments",
+                "review_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7067/comments",
+                "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/88bad8fc6a5b033a7ff11237ed6222b4ce3f0bce",
+                "head": {
+                    "label": "kamranahmedse:feat/projects-page",
+                    "ref": "feat/projects-page",
+                    "sha": "88bad8fc6a5b033a7ff11237ed6222b4ce3f0bce",
+                    "user": {
+                        "login": "kamranahmedse",
+                        "id": 4921183,
+                        "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/kamranahmedse",
+                        "html_url": "https://github.com/kamranahmedse",
+                        "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                        "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                        "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                        "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                        "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 85077558,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
+                        "name": "developer-roadmap",
+                        "full_name": "kamranahmedse/developer-roadmap",
+                        "private": false,
+                        "owner": {
+                            "login": "kamranahmedse",
+                            "id": 4921183,
+                            "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/kamranahmedse",
+                            "html_url": "https://github.com/kamranahmedse",
+                            "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                            "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                            "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                            "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                            "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                        "forks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/forks",
+                        "keys_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/teams",
+                        "hooks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/hooks",
+                        "issue_events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/events",
+                        "assignees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/tags",
+                        "blobs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/languages",
+                        "stargazers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/stargazers",
+                        "contributors_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contributors",
+                        "subscribers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscribers",
+                        "subscription_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscription",
+                        "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/merges",
+                        "archive_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/downloads",
+                        "issues_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/deployments",
+                        "created_at": "2017-03-15T13:45:52Z",
+                        "updated_at": "2024-09-12T11:28:47Z",
+                        "pushed_at": "2024-09-12T11:28:40Z",
+                        "git_url": "git://github.com/kamranahmedse/developer-roadmap.git",
+                        "ssh_url": "git@github.com:kamranahmedse/developer-roadmap.git",
+                        "clone_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+                        "svn_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "homepage": "https://roadmap.sh",
+                        "size": 237842,
+                        "stargazers_count": 291092,
+                        "watchers_count": 291092,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 38519,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 79,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "angular-roadmap",
+                            "backend-roadmap",
+                            "blockchain-roadmap",
+                            "computer-science",
+                            "dba-roadmap",
+                            "developer-roadmap",
+                            "devops-roadmap",
+                            "frontend-roadmap",
+                            "go-roadmap",
+                            "java-roadmap",
+                            "javascript-roadmap",
+                            "nodejs-roadmap",
+                            "python-roadmap",
+                            "qa-roadmap",
+                            "react-roadmap",
+                            "roadmap",
+                            "software-architect-roadmap",
+                            "vue-roadmap"
+                        ],
+                        "visibility": "public",
+                        "forks": 38519,
+                        "open_issues": 79,
+                        "watchers": 291092,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "kamranahmedse:master",
+                    "ref": "master",
+                    "sha": "dae737fa02290660398152f7af586688c56d0e73",
+                    "user": {
+                        "login": "kamranahmedse",
+                        "id": 4921183,
+                        "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/kamranahmedse",
+                        "html_url": "https://github.com/kamranahmedse",
+                        "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                        "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                        "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                        "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                        "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 85077558,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
+                        "name": "developer-roadmap",
+                        "full_name": "kamranahmedse/developer-roadmap",
+                        "private": false,
+                        "owner": {
+                            "login": "kamranahmedse",
+                            "id": 4921183,
+                            "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/kamranahmedse",
+                            "html_url": "https://github.com/kamranahmedse",
+                            "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                            "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                            "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                            "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                            "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                        "forks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/forks",
+                        "keys_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/teams",
+                        "hooks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/hooks",
+                        "issue_events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/events",
+                        "assignees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/tags",
+                        "blobs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/languages",
+                        "stargazers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/stargazers",
+                        "contributors_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contributors",
+                        "subscribers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscribers",
+                        "subscription_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscription",
+                        "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/merges",
+                        "archive_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/downloads",
+                        "issues_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/deployments",
+                        "created_at": "2017-03-15T13:45:52Z",
+                        "updated_at": "2024-09-12T11:28:47Z",
+                        "pushed_at": "2024-09-12T11:28:40Z",
+                        "git_url": "git://github.com/kamranahmedse/developer-roadmap.git",
+                        "ssh_url": "git@github.com:kamranahmedse/developer-roadmap.git",
+                        "clone_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+                        "svn_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "homepage": "https://roadmap.sh",
+                        "size": 237842,
+                        "stargazers_count": 291092,
+                        "watchers_count": 291092,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 38519,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 79,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "angular-roadmap",
+                            "backend-roadmap",
+                            "blockchain-roadmap",
+                            "computer-science",
+                            "dba-roadmap",
+                            "developer-roadmap",
+                            "devops-roadmap",
+                            "frontend-roadmap",
+                            "go-roadmap",
+                            "java-roadmap",
+                            "javascript-roadmap",
+                            "nodejs-roadmap",
+                            "python-roadmap",
+                            "qa-roadmap",
+                            "react-roadmap",
+                            "roadmap",
+                            "software-architect-roadmap",
+                            "vue-roadmap"
+                        ],
+                        "visibility": "public",
+                        "forks": 38519,
+                        "open_issues": 79,
+                        "watchers": 291092,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7067"
+                    },
+                    "html": {
+                        "href": "https://github.com/kamranahmedse/developer-roadmap/pull/7067"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7067"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7067/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7067/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7067/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/88bad8fc6a5b033a7ff11237ed6222b4ce3f0bce"
+                    }
+                },
+                "author_association": "COLLABORATOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "kamranahmedse",
+                    "id": 4921183,
+                    "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kamranahmedse",
+                    "html_url": "https://github.com/kamranahmedse",
+                    "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                    "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                    "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                    "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 228,
+                "deletions": 0,
+                "changed_files": 4
+            }
+        },
+        "public": true,
+        "created_at": "2024-09-12T11:30:29Z"
+    },
+    {
+        "id": "41866374635",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "repository_id": 85077558,
+            "push_id": 20204678706,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "9f446764bcf493291045253dba1d5e81e500837f",
+            "before": "bf80d3f05236dea139d8ad1d455b1d698f931e34",
+            "commits": [
+                {
+                    "sha": "9f446764bcf493291045253dba1d5e81e500837f",
+                    "author": {
+                        "email": "41898282+github-actions[bot]@users.noreply.github.com",
+                        "name": "github-actions[bot]"
+                    },
+                    "message": "chore: update roadmap content json (#7087)\n\nCo-authored-by: kamranahmedse <4921183+kamranahmedse@users.noreply.github.com>",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits/9f446764bcf493291045253dba1d5e81e500837f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2024-09-12T11:25:03Z"
+    },
+    {
+        "id": "41866374250",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 4921183,
+            "login": "kamranahmedse",
+            "display_login": "kamranahmedse",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kamranahmedse",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?"
+        },
+        "repo": {
+            "id": 85077558,
+            "name": "kamranahmedse/developer-roadmap",
+            "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 7087,
+            "pull_request": {
+                "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7087",
+                "id": 2067487450,
+                "node_id": "PR_kwDOBRIuNs57O1ra",
+                "html_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7087",
+                "diff_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7087.diff",
+                "patch_url": "https://github.com/kamranahmedse/developer-roadmap/pull/7087.patch",
+                "issue_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7087",
+                "number": 7087,
+                "state": "closed",
+                "locked": false,
+                "title": "Updated Roadmap Content JSON - Automated",
+                "user": {
+                    "login": "github-actions[bot]",
+                    "id": 41898282,
+                    "node_id": "MDM6Qm90NDE4OTgyODI=",
+                    "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+                    "html_url": "https://github.com/apps/github-actions",
+                    "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+                    "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+                    "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+                    "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+                    "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+                    "type": "Bot",
+                    "site_admin": false
+                },
+                "body": "## Updated Roadmap Content JSON\n\n> [!IMPORTANT]\n> This PR Updates the Roadmap Content JSON files stored in the `public` directory.\n>\n> Commit: 973d4dc73a5c7f5f57cefcd06f5a5d8dcd19ac33\n> Workflow Path: kamranahmedse/developer-roadmap/.github/workflows/refresh-roadmap-content-json.yml@refs/heads/master\n\n**Please Review the Changes and Merge the PR if everything is fine.**",
+                "created_at": "2024-09-12T00:11:05Z",
+                "updated_at": "2024-09-12T11:25:01Z",
+                "closed_at": "2024-09-12T11:25:01Z",
+                "merged_at": "2024-09-12T11:25:01Z",
+                "merge_commit_sha": "9f446764bcf493291045253dba1d5e81e500837f",
+                "assignee": null,
+                "assignees": [],
+                "requested_reviewers": [
+                    {
+                        "login": "kamranahmedse",
+                        "id": 4921183,
+                        "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/kamranahmedse",
+                        "html_url": "https://github.com/kamranahmedse",
+                        "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                        "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                        "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                        "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                        "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    }
+                ],
+                "requested_teams": [],
+                "labels": [
+                    {
+                        "id": 5007565500,
+                        "node_id": "LA_kwDOBRIuNs8AAAABKnlivA",
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels/dependencies",
+                        "name": "dependencies",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    },
+                    {
+                        "id": 5007565501,
+                        "node_id": "LA_kwDOBRIuNs8AAAABKnlivQ",
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels/automated%20pr",
+                        "name": "automated pr",
+                        "color": "ededed",
+                        "default": false,
+                        "description": null
+                    }
+                ],
+                "milestone": null,
+                "draft": false,
+                "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7087/commits",
+                "review_comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7087/comments",
+                "review_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7087/comments",
+                "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/e7e14127b49d94587c70395b8381ecc49c464ea8",
+                "head": {
+                    "label": "kamranahmedse:chore/update-content-json",
+                    "ref": "chore/update-content-json",
+                    "sha": "e7e14127b49d94587c70395b8381ecc49c464ea8",
+                    "user": {
+                        "login": "kamranahmedse",
+                        "id": 4921183,
+                        "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/kamranahmedse",
+                        "html_url": "https://github.com/kamranahmedse",
+                        "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                        "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                        "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                        "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                        "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 85077558,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
+                        "name": "developer-roadmap",
+                        "full_name": "kamranahmedse/developer-roadmap",
+                        "private": false,
+                        "owner": {
+                            "login": "kamranahmedse",
+                            "id": 4921183,
+                            "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/kamranahmedse",
+                            "html_url": "https://github.com/kamranahmedse",
+                            "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                            "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                            "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                            "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                            "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                        "forks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/forks",
+                        "keys_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/teams",
+                        "hooks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/hooks",
+                        "issue_events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/events",
+                        "assignees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/tags",
+                        "blobs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/languages",
+                        "stargazers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/stargazers",
+                        "contributors_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contributors",
+                        "subscribers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscribers",
+                        "subscription_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscription",
+                        "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/merges",
+                        "archive_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/downloads",
+                        "issues_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/deployments",
+                        "created_at": "2017-03-15T13:45:52Z",
+                        "updated_at": "2024-09-12T11:24:46Z",
+                        "pushed_at": "2024-09-12T11:24:38Z",
+                        "git_url": "git://github.com/kamranahmedse/developer-roadmap.git",
+                        "ssh_url": "git@github.com:kamranahmedse/developer-roadmap.git",
+                        "clone_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+                        "svn_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "homepage": "https://roadmap.sh",
+                        "size": 237842,
+                        "stargazers_count": 291092,
+                        "watchers_count": 291092,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 38519,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 82,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "angular-roadmap",
+                            "backend-roadmap",
+                            "blockchain-roadmap",
+                            "computer-science",
+                            "dba-roadmap",
+                            "developer-roadmap",
+                            "devops-roadmap",
+                            "frontend-roadmap",
+                            "go-roadmap",
+                            "java-roadmap",
+                            "javascript-roadmap",
+                            "nodejs-roadmap",
+                            "python-roadmap",
+                            "qa-roadmap",
+                            "react-roadmap",
+                            "roadmap",
+                            "software-architect-roadmap",
+                            "vue-roadmap"
+                        ],
+                        "visibility": "public",
+                        "forks": 38519,
+                        "open_issues": 82,
+                        "watchers": 291092,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "kamranahmedse:master",
+                    "ref": "master",
+                    "sha": "973d4dc73a5c7f5f57cefcd06f5a5d8dcd19ac33",
+                    "user": {
+                        "login": "kamranahmedse",
+                        "id": 4921183,
+                        "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/kamranahmedse",
+                        "html_url": "https://github.com/kamranahmedse",
+                        "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                        "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                        "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                        "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                        "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 85077558,
+                        "node_id": "MDEwOlJlcG9zaXRvcnk4NTA3NzU1OA==",
+                        "name": "developer-roadmap",
+                        "full_name": "kamranahmedse/developer-roadmap",
+                        "private": false,
+                        "owner": {
+                            "login": "kamranahmedse",
+                            "id": 4921183,
+                            "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/kamranahmedse",
+                            "html_url": "https://github.com/kamranahmedse",
+                            "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                            "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                            "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                            "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                            "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "html_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/kamranahmedse/developer-roadmap",
+                        "forks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/forks",
+                        "keys_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/teams",
+                        "hooks_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/hooks",
+                        "issue_events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/events",
+                        "assignees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/tags",
+                        "blobs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/languages",
+                        "stargazers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/stargazers",
+                        "contributors_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contributors",
+                        "subscribers_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscribers",
+                        "subscription_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/subscription",
+                        "commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/merges",
+                        "archive_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/downloads",
+                        "issues_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/kamranahmedse/developer-roadmap/deployments",
+                        "created_at": "2017-03-15T13:45:52Z",
+                        "updated_at": "2024-09-12T11:24:46Z",
+                        "pushed_at": "2024-09-12T11:24:38Z",
+                        "git_url": "git://github.com/kamranahmedse/developer-roadmap.git",
+                        "ssh_url": "git@github.com:kamranahmedse/developer-roadmap.git",
+                        "clone_url": "https://github.com/kamranahmedse/developer-roadmap.git",
+                        "svn_url": "https://github.com/kamranahmedse/developer-roadmap",
+                        "homepage": "https://roadmap.sh",
+                        "size": 237842,
+                        "stargazers_count": 291092,
+                        "watchers_count": 291092,
+                        "language": "TypeScript",
+                        "has_issues": true,
+                        "has_projects": false,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "has_discussions": false,
+                        "forks_count": 38519,
+                        "mirror_url": null,
+                        "archived": false,
+                        "disabled": false,
+                        "open_issues_count": 82,
+                        "license": {
+                            "key": "other",
+                            "name": "Other",
+                            "spdx_id": "NOASSERTION",
+                            "url": null,
+                            "node_id": "MDc6TGljZW5zZTA="
+                        },
+                        "allow_forking": true,
+                        "is_template": false,
+                        "web_commit_signoff_required": false,
+                        "topics": [
+                            "angular-roadmap",
+                            "backend-roadmap",
+                            "blockchain-roadmap",
+                            "computer-science",
+                            "dba-roadmap",
+                            "developer-roadmap",
+                            "devops-roadmap",
+                            "frontend-roadmap",
+                            "go-roadmap",
+                            "java-roadmap",
+                            "javascript-roadmap",
+                            "nodejs-roadmap",
+                            "python-roadmap",
+                            "qa-roadmap",
+                            "react-roadmap",
+                            "roadmap",
+                            "software-architect-roadmap",
+                            "vue-roadmap"
+                        ],
+                        "visibility": "public",
+                        "forks": 38519,
+                        "open_issues": 82,
+                        "watchers": 291092,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7087"
+                    },
+                    "html": {
+                        "href": "https://github.com/kamranahmedse/developer-roadmap/pull/7087"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7087"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/issues/7087/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7087/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/pulls/7087/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/kamranahmedse/developer-roadmap/statuses/e7e14127b49d94587c70395b8381ecc49c464ea8"
+                    }
+                },
+                "author_association": "CONTRIBUTOR",
+                "auto_merge": null,
+                "active_lock_reason": null,
+                "merged": true,
+                "mergeable": null,
+                "rebaseable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "kamranahmedse",
+                    "id": 4921183,
+                    "node_id": "MDQ6VXNlcjQ5MjExODM=",
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4921183?v=4",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/kamranahmedse",
+                    "html_url": "https://github.com/kamranahmedse",
+                    "followers_url": "https://api.github.com/users/kamranahmedse/followers",
+                    "following_url": "https://api.github.com/users/kamranahmedse/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/kamranahmedse/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/kamranahmedse/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/kamranahmedse/subscriptions",
+                    "organizations_url": "https://api.github.com/users/kamranahmedse/orgs",
+                    "repos_url": "https://api.github.com/users/kamranahmedse/repos",
+                    "events_url": "https://api.github.com/users/kamranahmedse/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/kamranahmedse/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "maintainer_can_modify": false,
+                "commits": 1,
+                "additions": 48,
+                "deletions": 15,
+                "changed_files": 5
+            }
+        },
+        "public": true,
+        "created_at": "2024-09-12T11:25:02Z"
+    }
+]
