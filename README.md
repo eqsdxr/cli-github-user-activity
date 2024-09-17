@@ -6,8 +6,9 @@ A project from https://roadmap.sh/projects/github-user-activity .
 
 ## Features
 
-"username": View all activity of a specific user.
-"username/username2/username3": View all activity of multiple users with specific usernames.
+- "username": View all activity of a specific user.
+
+- "username/username2/username3": View all activity of multiple users with specific usernames.
 
 ## Usage
 ```bash
