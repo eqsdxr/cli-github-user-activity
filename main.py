@@ -83,9 +83,9 @@ def fetch_user_activity_data(username:str)-> dict | None:
             if response.status == 200:
                     return response_dict
             else:
-                print(f'Failed to fetch data. Response code: {response.status}.')
                 if response.status == 404:
-                    print('# Username not found on GitHub')
+                    print(f'# Username "{username}" not found on GitHub')
+                    return 1
         except ConnectionError:
             print('# Connection error. Please check you network.')
             return 1
@@ -105,7 +105,7 @@ def print_user_activity(username:str, response_dict_or_one:dict|int)->None:
         for event in response_dict_or_one:
             print('- ', end='')
             parsing_results(event)
-    else:
+    elif response_dict_or_one != 1:
         print(f'# The user "{username}" exists but doesn\'t have any activity to show')
 
 
